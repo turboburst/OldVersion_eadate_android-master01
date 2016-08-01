@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_top_text_leftpadding"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_accent"
+                android:textSize="@dimen/activity_top_textsize"
+                android:layout_marginTop="@dimen/activity_newactivity_bottommargin"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/newactivityborder1"
+                android:paddingLeft="4dp"
+                android:paddingTop="@dimen/activity_search_toppadding"
+                android:textStyle="bold"
+                android:text="Summary of new Activity"/>
+
+            <TextView
+                android:id="@+id/newactivity_title_part"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/activitty_newactivity_submit_textsize"
+                android:layout_marginTop="@dimen/activity_newactivity_bottommargin"
+                android:layout_marginBottom="@dimen/activity_top_text_leftpadding"
+                android:textColor="#ff0000" />
+            <TextView
+                android:id="@+id/newactivity_address_part"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/activitty_newactivity_submit_textsize"
+                android:textColor="#7C4DFF"
+                android:layout_marginBottom="@dimen/activity_top_text_leftpadding" />
+
+            <TextView
+                android:id="@+id/newactivity_time_part"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#daa222"
+                android:textSize="@dimen/activitty_newactivity_submit_textsize"
+                android:layout_marginBottom="@dimen/activity_top_text_leftpadding" />
+
+            <TextView
+                android:id="@+id/newactivity_detail_part"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/activitty_newactivity_submit_textsize"
+                android:textColor="#FF9800" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+        android:id="@+id/newactivity_backBtn"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+            android:layout_weight="1"
+        android:text="@string/newactivityBackButton"
+        android:textAllCaps="false"
+        android:background="@drawable/round_pink"/>
+        &lt;!&ndash; change mycolor to mycolor1 &ndash;&gt;
+
+        <Button
+            android:id="@+id/newactivity_submitBtn"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/newactivitySubmitButton"
+            android:textAllCaps="false"
+            android:background="@drawable/round_gray"/>
+    </LinearLayout>-->
+
+</LinearLayout>

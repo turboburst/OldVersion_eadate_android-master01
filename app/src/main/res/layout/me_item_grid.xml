@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:minHeight="96dp"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <ImageView
+        android:id="@+id/item_img"
+        android:layout_height="60dp"
+        android:layout_width="60dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/me_rounded"
+        android:src="@mipmap/ic_launcher"/>
+
+    <!--<com.android.volley.toolbox.NetworkImageView-->
+        <!--android:id="@+id/item_img"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:scaleType="center"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:background="@drawable/rounded"-->
+        <!--android:src="@drawable/ic_launcher"/>-->
+
+    <!--<TextView-->
+            <!--android:id="@+id/item_title"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:singleLine="true"-->
+            <!--android:ellipsize="end"-->
+            <!--android:padding="1dp"-->
+            <!--android:gravity="center"-->
+            <!--/>-->
+
+</LinearLayout>

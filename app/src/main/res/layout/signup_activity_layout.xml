@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    tools:context=".signupActivity_">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/signup_layout_top"/>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_editTextHeight"
+            android:paddingLeft="@dimen/activity_editTextLeftPadding"
+            android:hint="@string/emailHint"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/textborder"
+            />
+
+        <EditText
+            android:id="@+id/userNameEditTextID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_editTextHeight"
+            android:paddingLeft="@dimen/activity_editTextLeftPadding"
+            android:hint="@string/usernameHint"
+            android:inputType="textPersonName"
+            android:background="@drawable/textborder"
+            />
+        <EditText
+            android:id="@+id/passwordEditTextID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_editTextHeight"
+            android:paddingLeft="@dimen/activity_editTextLeftPadding"
+            android:hint="@string/passwordHint"
+            android:inputType="textPassword"
+            android:background="@drawable/textborder"
+            />
+
+        <EditText
+            android:id="@+id/passwordConfirmEditTextID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_editTextHeight"
+            android:paddingLeft="@dimen/activity_editTextLeftPadding"
+            android:hint="@string/confirmpasswordHint"
+            android:inputType="textPassword"
+            android:background="@drawable/textborder"
+            />
+        <EditText
+            android:id="@+id/birthdayEditTextID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_editTextHeight"
+            android:paddingLeft="@dimen/activity_editTextLeftPadding"
+            android:hint="@string/birthdayHint"
+            android:inputType="datetime"
+            android:background="@drawable/textborder"
+            />
+
+        <EditText
+            android:id="@+id/genderEditTextID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_editTextHeight"
+            android:paddingLeft="@dimen/activity_editTextLeftPadding"
+            android:hint="@string/genderHint"
+            android:inputType="text"
+            android:background="@drawable/textborder"
+            />
+
+        <EditText
+            android:id="@+id/numberEditTextID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_editTextHeight"
+            android:paddingLeft="@dimen/activity_editTextLeftPadding"
+            android:hint="@string/referdalHint"
+            android:inputType="phone"
+            android:background="@drawable/textborder"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <include layout="@layout/signup_layout_enterbutton"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

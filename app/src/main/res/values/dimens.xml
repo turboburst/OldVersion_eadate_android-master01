@@ -1,0 +1,47 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_top_layout_height">60dp</dimen>
+    <dimen name="activity_top_textorimg_height">29dp</dimen>
+    <dimen name="activity_top_textsize">25dp</dimen>
+    <dimen name="activity_top_text_leftpadding">14dp</dimen>
+
+    <dimen name="activity_editTextLeftPadding">9dp</dimen>
+    <dimen name="activity_editTextHeight">60dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- MeDimen -->
+    <dimen name="dgv_overlap_if_switch_straight_line">16dp</dimen>
+    <!-- MeDimen End -->
+
+    <!-- new activity -->
+    <dimen name="activity_newactivity_bottommargin">2dp</dimen>
+    <dimen name="activity_newactivity_spinner_height">25dp</dimen>
+
+    <dimen name="activity_search_marginbottom">-16dp</dimen>
+
+    <dimen name="activity_search_textsize">18dp</dimen>
+    <dimen name="activity_search_line_bottompadding">8dp</dimen>
+    <dimen name="activity_search_toppadding">5dp</dimen>
+    <dimen name="newactivity_top_text_size">30dp</dimen>
+    <dimen name="newactivity_topbutton_margin_top">10dp</dimen>
+    <dimen name="activitty_newactivity_submit_textsize">15dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="radio_button_conner_radius">5dp</dimen>
+    <dimen name="radio_button_stroke_border">1dp</dimen>
+
+    <!-- MeDimen -->
+    <dimen name="totextviewmargin">5dp</dimen>
+    <dimen name="agepaddingLeftNRight">10dp</dimen>
+    <dimen name="ageedittextheight">33dp</dimen>
+    <dimen name="searchfragmentpadding">14dp</dimen>
+    <dimen name="searchinnerpadding">6dp</dimen>
+    <dimen name="advanceFragmentTopPadding">12dp</dimen>
+    <dimen name="advanceLayoutLeftPadding">10dp</dimen>
+
+
+</resources>

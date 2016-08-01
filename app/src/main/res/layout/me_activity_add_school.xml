@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.somoplay.somotab.SomoMe.AddSchoolActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left">
+        <TextView
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Back"
+            android:textColor="#000000"
+            android:background="@android:color/transparent"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="添加学校"
+                android:textColor="#000000"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:textColor="#fff"
+                android:background="@drawable/me_rounded2"
+                android:onClick="save"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:orientation="horizontal">-->
+    <!--<EditText-->
+    <!--android:id="@+id/addSchoolText"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_weight="3"-->
+    <!--android:gravity="center_vertical|left"-->
+    <!--android:padding="15dp"-->
+    <!--android:textSize="@dimen/abc_text_size_small_material"-->
+    <!--android:hint="添加学校信息"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/searchBtn"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_marginRight="5dp"-->
+    <!--android:text="Search"-->
+    <!--android:onClick="search"/>-->
+
+    <!--</LinearLayout>-->
+    <!--<SearchView-->
+    <!--android:id="@+id/searchSchool"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:hint="添加学校信息"/>-->
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent">-->
+
+    <AutoCompleteTextView
+        android:id="@+id/autotext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <include
+        layout="@layout/me_list_item_personalinfo"
+        android:id="@+id/selectYear"/>
+    <!--<include-->
+    <!--layout="@layout/listview"-->
+    <!--android:id="@+id/schoollist"/>-->
+    <!--</FrameLayout>-->
+
+    <DatePicker
+        android:id="@+id/yearPicker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+    </DatePicker>
+
+</LinearLayout>

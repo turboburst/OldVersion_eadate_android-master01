@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <include layout="@layout/me_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <include layout="@layout/me_list_item_personalinfo"
+        android:id="@+id/searchLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/addSchool"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="添加学校信息"/>-->
+
+</LinearLayout>

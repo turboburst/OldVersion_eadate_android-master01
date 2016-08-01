@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/activity_top_text_leftpadding"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/newactivity_layout_body_firstID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/tab_me_grey"
+        />
+    <ImageButton
+        android:id="@+id/newactivity_layout_firstcurseID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/tab_me_grey"
+        />
+    <ImageButton
+        android:id="@+id/newactivity_layout_body_secondID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/tab_me_grey"
+        />
+    <ImageButton
+        android:id="@+id/newactivity_layout_body_secondcurseID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/tab_me_grey"
+        />
+    <ImageButton
+        android:id="@+id/newactivity_layout_body_thirdID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/tab_me_grey"
+        />
+
+</LinearLayout>

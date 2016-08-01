@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/viewholder_container">
+    <!--android:orientation="H" -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="Name"
+        android:textColor="#FF5F00"
+        android:textSize="20sp"
+        android:typeface="sans"
+        android:layout_marginRight="40dp" />
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:text="Details"
+        android:textColor="#10ffff"
+        android:textSize="15sp"
+        android:layout_below="@+id/name"
+        android:layout_alignRight="@+id/name" />
+
+</RelativeLayout>

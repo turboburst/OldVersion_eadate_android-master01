@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/tab_layout_title"/>
+
+    <LinearLayout
+        android:id="@+id/namechang_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:background="#fff"
+        android:onClick="editInfo">
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/me_rounded"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:background="@drawable/me_image1"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="Name: Apple"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:gravity="top"
+                android:text="ID: 123456"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="10dp">
+    </LinearLayout>
+
+    <!--<include-->
+        <!--android:id="@+id/listview"-->
+        <!--layout="@layout/listview"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"/>-->
+    <include layout="@layout/me_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <!--<ListView-->
+        <!--android:id="@+id/listview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/list_background"/>-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="10dp">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/activityLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/emotionImage"
+            android:layout_width="35dp"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/setActivity"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/emotionImage"
+            android:gravity="center_vertical"
+            android:text="Setup New Activity"
+            android:layout_alignParentRight="true"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/me_listview_arrow"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="10dp">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/settingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/settingImage"
+            android:layout_width="35dp"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/me_akf"/>
+
+        <TextView
+            android:id="@+id/settingText"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/settingImage"
+            android:gravity="center_vertical"
+            android:text="设置"
+            android:layout_alignParentRight="true"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/me_listview_arrow"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="20dp">
+    </LinearLayout>
+
+</LinearLayout>
+

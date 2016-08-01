@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/activity_search_textsize"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="@dimen/activity_newactivity_bottommargin"
+                android:text="Start Time:"/>
+            <TextView
+                android:id="@+id/newactivity_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/activity_newactivity_bottommargin"
+                android:layout_marginBottom="@dimen/activity_newactivity_bottommargin"
+                android:textSize="@dimen/activity_search_textsize"
+                android:clickable="false" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#f45" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="@dimen/activity_search_textsize"
+                android:layout_marginTop="@dimen/activity_newactivity_bottommargin"
+                android:layout_marginBottom="@dimen/activity_newactivity_bottommargin"
+                android:text="End Time:"/>
+            <TextView
+                android:id="@+id/newactivity_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/activity_newactivity_bottommargin"
+                android:layout_marginBottom="@dimen/activity_newactivity_bottommargin"
+                android:textSize="@dimen/activity_search_textsize"
+                android:editable="false"
+                android:inputType="none" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#f45" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+            <!--<include layout="@layout/newactivity_layout_button"/>-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
+

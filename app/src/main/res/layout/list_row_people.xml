@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/people_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:background="@color/signup_enterbutton_color"
+    android:orientation="horizontal">
+
+
+    <com.somoplay.eadate.view.CircularNetworkImageView
+        android:id="@+id/profile_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:src="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profile_img"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/profile_img"
+        android:layout_toRightOf="@+id/profile_img"
+        android:singleLine="true"
+        android:text="Name"
+        android:textColor="#FF5F00"
+        android:textSize="15sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/detail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_below="@+id/name"
+        android:ellipsize="end"
+        android:text="Details"
+        android:textColor="#343434"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/detail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/detail1"
+        android:layout_below="@+id/detail1"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Details"
+        android:textColor="#343434"
+        android:textSize="12sp" />
+
+</RelativeLayout>
