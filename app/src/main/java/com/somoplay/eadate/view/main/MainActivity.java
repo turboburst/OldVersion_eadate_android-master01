@@ -67,6 +67,7 @@ public class MainActivity extends FragmentActivity implements WebRequestActivity
     void setSelect(int i) {
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction transaction = fm.beginTransaction();
+        
         hideFragment(transaction);
 
         switch (i) {
